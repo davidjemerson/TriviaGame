@@ -107,7 +107,7 @@ function loadQuestion() {
 };
 
 function startScreen() {
-	$("#question").text("Trivia Game! Press Start to begin");
+	$("#question").text("Doctor Who Trivia! Press Start to begin");
 	var startButton = $("<button>").text("Start").addClass("start-button");
 	$("#answers").append(startButton);
 }
